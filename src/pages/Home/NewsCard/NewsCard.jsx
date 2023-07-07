@@ -44,7 +44,6 @@ const NewsCard = ({ news }) => {
       </Card.Body>
       <Card.Footer className="text-muted d-flex">
         <div className="flex-grow-1">
-         
           <Rating
             placeholderRating={rating.number}
             readonly
@@ -52,7 +51,7 @@ const NewsCard = ({ news }) => {
             placeholderSymbol={<FaStar className="text-warning"></FaStar>}
             fullSymbol={<FaStar></FaStar>}
           ></Rating>
-         <span> {rating.number}</span>
+          <span> {rating.number}</span>
         </div>
         <div>
           <FaEye></FaEye> {total_view}
